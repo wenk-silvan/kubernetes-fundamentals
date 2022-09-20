@@ -8,7 +8,7 @@ spec:
   - image: ubuntu
     name: ubuntu
     command:
-    - "/bin/?"
+    - "/bin/bash"
     - "-c"
     args:
-    - ?
+    - "echo 'Hello participant'"

@@ -11,3 +11,5 @@ spec:
     - "-c"
     args:
     - sleep 3600
+    securityContext:
+      runAsUser: 1000

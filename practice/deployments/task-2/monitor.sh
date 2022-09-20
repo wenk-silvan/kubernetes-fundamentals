@@ -1,7 +1,7 @@
 #!/bin/sh
 
-while true;
+while true :
 do
-  curl <PUBLIC-IP>:80;
-  sleep 1;
-done;
+  curl 20.223.12.67:80
+  sleep 1
+done

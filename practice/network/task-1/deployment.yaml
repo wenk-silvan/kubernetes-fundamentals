@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   labels:
     app: task-1
-  name: ?
+  name: task-1
 spec:
   replicas: 1
   selector:
@@ -16,7 +16,7 @@ spec:
         app: task-1
     spec:
       containers:
-      - image: ?
+      - image: nginx
         name: nginx
         ports:
         - containerPort: 80

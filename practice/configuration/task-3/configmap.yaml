@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: cm-task-3
 data:
-  EXAMPLE_KEY: example
+  EXAMPLE_KEY: other
 
     
